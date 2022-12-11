@@ -15,10 +15,21 @@ function Book(title, author, pages, read) {
   }
   
   const theHobbit = new Book('The Hobbit', 'J.R.R. Tolkien', '295 pages', 'not read yet')
+  const theHobber = new Book('The Hobber', 'J.R.E. Experience', '321 pages', 'read')
   
   console.log(theHobbit.info());
+  myLibrary.push(theHobbit, theHobber);
 
   // Adds books to the Library
   function addBookToLibrary() {
-    
+
   }
+
+  // 3. Write a function that loops through the array and displays each book on the page
+
+
+function availableBooks(array) {
+    console.table(myLibrary);
+}
+
+availableBooks(myLibrary);
