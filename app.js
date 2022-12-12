@@ -30,7 +30,7 @@ let book2 = new Book('The Hobber', 'J.R.E. Experience', '321', 'read')
 addBookToLibrary(book1);
 addBookToLibrary(book2);
   
-  // 3. Write a function that loops through the array and displays each book on the page
+// 3. Write a function that loops through the array and displays each book on the page
 
 function makeLibrary () {
     let i = 0;
